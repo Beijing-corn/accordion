@@ -1,0 +1,36 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ .contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
+ .head{
+    background-color: rgba(37, 141, 134, 0.949);
+    width: 500px;
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 10px;
+ }
+ .shoulders{
+    background-color: rgb(37, 141, 134, 0.010);
+    width: 500px;
+    color: aliceblue;
+    display: none;
+    padding: 10px;
+    border: 5px rgb(19, 75, 75);
+ }
+.active{
+    background-color: rgb(19, 75, 75);
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/796/949/original/abstract-triangle-pattern-shape-in-turquoise-color-for-social-media-web-presentation-background-cover-and-more-free-vector.jpg);
+    background-repeat: no-repeat;
+}
+.head:hover{
+   background-color:  rgb(76, 144, 144);
+}
